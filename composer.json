@@ -1,0 +1,26 @@
+{
+    "name": "saasformation/array-by-path",
+    "description": "Library to get/set on an array using a dotted path",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SaaSFormation\\ArrayByPath\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SaaSFormation\\ArrayByPath\\Tests\\Unit\\": "tests/Unit/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaaSFormation",
+            "email": "info@saasformation.com"
+        }
+    ],
+    "require": {}
+}
